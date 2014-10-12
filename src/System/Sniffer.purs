@@ -3,11 +3,10 @@ module System.Sniffer
 
 import Data.String.Regex
 
-foreign import navigator :: {
-    userAgent :: String
-  }
+foreign import navigator :: { userAgent :: String }
 
 ua = navigator.userAgent
+
 i  :: RegexFlags
 i  = { global     : false
      , ignoreCase : true
