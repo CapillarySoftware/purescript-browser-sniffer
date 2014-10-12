@@ -1,0 +1,21 @@
+{
+  "name": "purescript-browser-sniffer",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "*Test.purs",
+    "example",
+    "tmp"
+  ],
+  "dependencies": {
+    "purescript-strings": "~0.2.1"
+  },
+  "devDependencies": {
+    "purescript-quickcheck": "~0.1.3",
+    "purescript-mocha": "*",
+    "purescript-chai": "*",
+    "purescript-debug-foreign": "*"
+  }
+}
