@@ -17,5 +17,6 @@
     "purescript-mocha": "*",
     "purescript-chai": "*",
     "purescript-debug-foreign": "*"
-  }
+  },
+  "version": "0.0.0"
 }
